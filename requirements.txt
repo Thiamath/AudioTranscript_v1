@@ -1,0 +1,51 @@
+# Requirements for AudioTranscript_v1
+# Core dependencies
+numpy
+scipy
+pandas
+matplotlib
+
+# Audio processing
+soundfile
+pydub
+ffmpeg-python
+
+# Speech recognition and transcription
+openai-whisper
+speechrecognition
+
+# Deep learning
+torch
+torchaudio
+torchvision
+
+# Speaker diarization
+pyannote.audio
+pyannote.core
+pyannote.database
+pyannote.metrics
+pyannote.pipeline
+
+# Hugging Face Hub (for model downloads)
+huggingface-hub
+
+# Optional: Jupyter Notebook for experiments/notebooks
+notebook
+
+# Other useful packages
+omegaconf
+joblib
+requests
+
+# If you use Lightning for training or inference
+lightning
+pytorch-lightning
+
+# If you use sentencepiece (sometimes needed for models)
+sentencepiece
+
+# tqdm for progress bars
+tqdm
+
+# Add any other packages you use below
+
